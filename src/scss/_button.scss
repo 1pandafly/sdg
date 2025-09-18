@@ -1,0 +1,15 @@
+.button {
+  font-size: clamp(0.875rem, 0.7455rem + 0.6475vw, 1.4375rem);
+  background: linear-gradient(210deg, #E51726 0%, #D4208C 100%);
+  border-radius: 10px;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: .03em;
+  font-weight: 900;
+  cursor: pointer;
+
+  &:hover {
+    opacity: .7;
+  }
+}

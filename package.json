@@ -1,0 +1,29 @@
+{
+  "name": "sdg-test",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development gulp",
+    "build": "cross-env NODE_ENV=production gulp build",
+    "clean": "gulp clean"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "browser-sync": "^2.29.3",
+    "cross-env": "^7.0.3",
+    "cssnano": "^6.0.1",
+    "del": "^7.1.0",
+    "gulp": "^4.0.2",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-if": "^3.0.0",
+    "gulp-postcss": "^9.0.1",
+    "gulp-sass": "^5.1.0",
+    "gulp-sourcemaps": "^3.0.0",
+    "gulp-terser": "^2.1.0",
+    "postcss": "^8.4.47",
+    "sass": "^1.79.4"
+  },
+  "browserslist": [
+    "> 0.5%, last 2 versions, not dead"
+  ]
+}

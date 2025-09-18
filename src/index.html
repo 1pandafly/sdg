@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SDG Test</title>
+    <link rel="stylesheet" href="./assets/css/style.css"/>
+
+</head>
+<body>
+<section class="hero-block">
+    <div class="container">
+        <div class="hero-block__content">
+            <div class="hero-block__image">
+                <img src="./assets/images/hero.png" alt="">
+            </div>
+            <div class="hero-block__text">
+                <h1 class="gradient-text">How to Participate</h1>
+                <ol class="hero-block__list">
+                    <li>Subscribe to our News</li>
+                    <li>
+                        <button type="button" id="open-popup" class="button hero-block__button">Sign Up</button>
+                    </li>
+                    <li>Check your email inbox</li>
+                    <li>Wait till September 22</li>
+                </ol>
+            </div>
+        </div>
+    </div>
+</section>
+<dialog id="form-popup" class="popup">
+    <div class="popup__content">
+        <div class="popup__inner-wrapper">
+            <p class="popup__heading">To register, enter the mail to which our news is sent and set your password</p>
+            <form class="popup__form" id="form">
+                <label for="email">
+                    <input type="text" id="email" name="email" placeholder="Example@email.com" autocomplete="on">
+                </label>
+                <label for="password">
+                    <input type="password" id="password" name="password" placeholder="Password">
+                </label>
+                <button type="submit" class="button">Submit</button>
+            </form>
+        </div>
+    </div>
+    <button id="close-popup" class="popup__close-button">
+        <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" clip-rule="evenodd" d="M4.41262 0.708832L0.846834 4.27461L11.5443 14.9721L0.84668 25.6697L4.41246 29.2355L15.1101 18.5379L25.8077 29.2354L29.3734 25.6697L18.6759 14.9721L29.3733 4.27469L25.8075 0.708908L15.1101 11.4063L4.41262 0.708832Z" fill="url(#paint0_linear_1_532)"/>
+            <defs>
+                <linearGradient id="paint0_linear_1_532" x1="13.9828" y1="-2.47944" x2="30.1903" y2="20.7347" gradientUnits="userSpaceOnUse">
+                    <stop stop-color="#E61726"/>
+                    <stop offset="1" stop-color="#D4208C"/>
+                </linearGradient>
+            </defs>
+        </svg>
+    </button>
+</dialog>
+<script src="./assets/js/main.js" defer></script>
+</body>
+</html>

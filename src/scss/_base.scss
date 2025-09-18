@@ -1,0 +1,27 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+  color: #3a3a3a;
+}
+
+.container {
+  width: 100%;
+  max-width: 1740px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.gradient-text {
+  background: linear-gradient(172deg, #E51726 0%, #D4208C 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+h1, .h1 {
+  font-weight: 900;
+  font-size: clamp(2.1875rem, 1.5832rem + 3.0216vw, 4.8125rem);
+  line-height: 1.3;
+  letter-spacing: -0.05em;
+  margin-bottom: 2rem;
+}
